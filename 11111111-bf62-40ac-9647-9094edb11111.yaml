@@ -1,7 +1,7 @@
 - defaultTab: nodes
   description: 'GAS'
   executionEnabled: true
-  id: 34d7290d-bf62-40ac-9647-9094edb22222
+  id: 11111111-bf62-40ac-9647-9094edb11111
   loglevel: INFO
   name: loop
   nodeFilterEditable: false
@@ -15,4 +15,4 @@
         \ \n        let num=num+1\n        sleep 1\ndone"
     keepgoing: false
     strategy: node-first
-  uuid: 34d7290d-bf62-40ac-9647-9094edb22222
+  uuid: 11111111-bf62-40ac-9647-9094edb11111
