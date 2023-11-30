@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: 'GAS'
+  executionEnabled: true
+  id: 34d7290d-bf62-40ac-9647-9094edb33333
+  loglevel: INFO
+  name: loop
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - script: "#!/bin/bash \nfor((num=0; num<100;)) \ndo \n        echo \"num:\"$num\
+        \ \n        let num=num+1\n        sleep 1\ndone"
+    keepgoing: false
+    strategy: node-first
+  uuid: 34d7290d-bf62-40ac-9647-9094edb33333
